@@ -1,4 +1,4 @@
-const {moo} = require("./moo.js");
+import {moo} from "./moo.js";
 
 let NAME = 'Clive';
 console.log(moo(NAME));

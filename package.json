@@ -8,10 +8,15 @@
   },
   "keywords": [],
   "author": "",
+  "type": "module",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.28.6",
     "@babel/core": "^7.29.0",
     "@babel/preset-env": "^7.29.0"
+  },
+  "dependencies": {
+    "module": "^2.0.0",
+    "node": "^25.6.1"
   }
 }
