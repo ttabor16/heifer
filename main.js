@@ -1,4 +1,5 @@
 import {moo} from "./moo.js";
+import {say} from "cowsay";
 
-let NAME = 'Clive';
-console.log(moo(NAME));
+let NAME = moo('Clive');
+console.log(say({text: NAME}));
